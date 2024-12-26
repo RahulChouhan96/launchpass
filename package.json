@@ -1,0 +1,18 @@
+{
+  "name": "stripe-sample",
+  "version": "1.0.0",
+  "description": "A sample Stripe implementation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "stripe-samples",
+  "license": "ISC",
+  "dependencies": {
+    "@mtproto/core": "^6.3.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.17.1",
+    "stripe": "^13.0.0",
+    "telegram": "^2.26.8"
+  }
+}
